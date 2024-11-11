@@ -17,12 +17,14 @@ export default function CharacterLoader() {
         <div className="flex items-center gap-2 text-whitetext">
           <User className="w-5 h-5 text-cyanfake" />
           <h2 className="text-lg font-semibold uppercase">Load from Armory</h2>
+          <br />
         </div>
+          <h2 className="text-md font-semibold uppercase text-orangetext">Currently we encounter issues with armory APIs</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="space-y-2">
             <label className="text-sm text-graytext">Region</label>
             <Select defaultValue="US">
-              <SelectTrigger className="bg-bggray text-whitetext border-zinc-700 rounded">
+              <SelectTrigger className="bg-bggray text-whitetext border-zinc-700 rounded ">
                 <SelectValue placeholder="Select region" />
               </SelectTrigger>
               <SelectContent className="bg-bggray text-whitetext border-zinc-700">
@@ -40,9 +42,6 @@ export default function CharacterLoader() {
                 <SelectValue placeholder="Select..." />
               </SelectTrigger>
               <SelectContent className="bg-bggray border-zinc-700 text-whitetext rounded">
-                <SelectItem value="realm1">Realm 1</SelectItem>
-                <SelectItem value="realm2">Realm 2</SelectItem>
-                <SelectItem value="realm3">Realm 3</SelectItem>
               </SelectContent>
             </Select>
           </div>

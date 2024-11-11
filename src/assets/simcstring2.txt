@@ -1,0 +1,69 @@
+# Aiaaea - Destruction - 2024-11-11 18:48 - EU/Burning Legion
+# SimC Addon 11.0.5-01
+# WoW 11.0.5.57388, TOC 110005
+# Requires SimulationCraft 1000-01 or newer
+
+warlock="Aiaaea"
+level=80
+race=dracthyr
+region=eu
+server=burning_legion
+role=spell
+professions=alchemy=1/herbalism=2
+spec=destruction
+
+talents=CsQAA81jxQD71lYhS/t8p6HgAAmZmZmZ0Y2MMmNmZYWmFzMzMmFzGLLzMDAAAAMMzsMzMzYBzMjZWWGNzMsNaZ2ashBAAAAAAwMGGAA
+
+# Saved Loadout: plus
+# talents=CsQAA81jxQD71lYhS/t8p6HgAAmZmZmZYMbGGzGzMMLziZmZGziZjllZmBAAAAGmZWmZmZsgZmxMLLDzMDbDLzmxGGAAAAAAAzYYAA
+# Saved Loadout: single 
+# talents=CsQAA81jxQD71lYhS/t8p6HgAMMm5BmZmZgZzAzGzMMLzmZYmZWMbGLmZAAAAgZmhlZmZGwYGDLwAbDLYsgBAAAAAAwYmZGAA
+
+# Circle of Flame (590)
+head=,id=231412,bonus_id=6652/10876/10378/10279/12092/10383/1478/10255
+# Trailspinner Pendant (606)
+neck=,id=178707,bonus_id=10390/42/10395/10392/10383/10270/9891/10255
+# Fanatic's Blackened Shoulderwraps (600)
+shoulder=,id=221135,bonus_id=10272/10390/6652/10377/10383/1635/10255
+# Swarmcaller's Shroud (597)
+back=,id=221154,bonus_id=10273/10390/40/10377/10383/1632/10255
+# Farraki Ceremonial Robes (580)
+chest=,id=151460,bonus_id=6652/7756/12090/10282/10022/10254
+# Alighted Cuffs of the Peerless (580)
+wrist=,id=224673,bonus_id=6652/10876/1688/10375/10282/1652/10254
+# Hexflame Coven's Sleeves (606)
+hands=,id=212075,bonus_id=10353/10372/6652/10274/1507/10255
+# Deep-Dweller's Cincture of the Quickblade (580)
+waist=,id=224589,bonus_id=43/10877/1677/10844/10282/1507/10254
+# Deep-Dweller's Leggings of the Quickblade (580)
+legs=,id=224598,bonus_id=6652/1677/10844/10282/1507/10254
+# Cosmic-Tinged Treads (606)
+feet=,id=212416,bonus_id=6652/10378/10353/10274/1507/10255
+# Band of the Ancient Dredger (606)
+finger1=,id=159461,bonus_id=10270/10390/6652/10395/10393/10383/10014/10255
+# Experiment 08752's Band (597)
+finger2=,id=221189,bonus_id=10273/10390/6652/10395/10393/10383/1632/10255
+# Ovi'nax's Mercurial Egg (606)
+trinket1=,id=220305,bonus_id=6652/10353/10274/1507/10255
+# Empowering Crystal of Anub'ikkaj (603)
+trinket2=,id=219312,bonus_id=10390/6652/10383/10271/1638/10255
+# Staff of Siphoned Essences (606)
+main_hand=,id=133303,bonus_id=10390/6652/10384/10270/10036/10255
+
+### Gear from Bags
+#
+# Mantle of Lost Hope (584)
+# shoulder=,id=231445,bonus_id=10378/6652/10281/12092/10383/1472/10255
+#
+# Tempest of Chaos (610)
+# main_hand=,id=171504,bonus_id=10265/7756/8902/10384/10017/10255
+
+### Additional Character Info
+#
+# upgrade_currencies=c:2915:77/c:2916:82/c:2914:276/c:3008:109
+#
+# slot_high_watermarks=0:590:636/1:606:626/2:600:639/3:580:626/4:580:636/5:580:626/6:606:626/7:580:636/8:606:639/9:597:626/10:603:639/11:597:626/12:606:639/13:610:610/14:0:636/15:0:626/16:548:626
+#
+# upgrade_achievements=40107/40115/40118
+
+# Checksum: 9b76ffed

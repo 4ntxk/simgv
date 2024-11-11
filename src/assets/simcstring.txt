@@ -1,0 +1,228 @@
+# Qkon - Retribution - 2024-11-11 18:46 - EU/Burning Legion
+# SimC Addon 11.0.5-01
+# WoW 11.0.5.57388, TOC 110005
+# Requires SimulationCraft 1000-01 or newer
+
+paladin="Qkon"
+level=80
+race=dwarf
+region=eu
+server=burning_legion
+role=attack
+professions=herbalism=100/mining=100
+spec=retribution
+
+talents=CYEA5ba6OK14IUITjS1kSUVJcBAAAYAgRstNzstsNzYzMz2iZbAAAAAAY2aaGGmZsNDmthxsMzy2YGMYYZhNAAAyMTbzysNDAYDYAAjZMA
+
+# Saved Loadout: plus
+# talents=CYEA5ba6OK14IUITjS1kSUVJcBAAAYAgB22mZ2W2mZsZmZbxsNAAAAAAMbGzwwMjtZwsNMmlZW2GzgBDLLsBAAAzM2mlZbGAwGwAAGzYA
+# Saved Loadout: st
+# talents=CYEA5ba6OK14IUITjS1kSUVJcBAAAYAAMW2mZ2W2GjtxYbbmNAAAAAAMMmhhZmZbGMbDzysMDjZwwMsswGAAAMzYbWmtZAAbADAGjZMD
+
+# Entombed Seraph's Casque (636)
+head=,id=211993,gem_id=213479,bonus_id=6652/10397/10356/8095/10371/10298/1537/10255
+# Trailspinner Pendant (626)
+neck=,id=178707,gem_id=213458/213494,bonus_id=10390/6652/10383/10256/9935/10255/10395/10879
+# Entombed Seraph's Plumes (639)
+shoulder=,id=211991,bonus_id=6652/10390/10369/10299/1540/10255
+# Troggstitched Drape (626)
+back=,id=133363,enchant_id=7403,bonus_id=10390/6652/10377/10383/10256/10056/10255
+# Entombed Seraph's Breastplate (626)
+chest=,id=211996,enchant_id=7364,bonus_id=6652/10355/8094/10373/10256/1527/10255
+# Everforged Vambraces  (636)
+wrist=,id=222435,enchant_id=7385,gem_id=213743,bonus_id=10421/9633/8902/9627/8791/10222/11144/11109/8960/11307,crafted_stats=32/36,crafting_quality=5
+# Entombed Seraph's Castigation (626)
+hands=,id=211994,bonus_id=10355/10372/6652/10256/1527/10255
+# Crystal-Fissure Girdle (626)
+waist=,id=221079,bonus_id=10390/6652/10876/10377/10383/10256/1661/10255
+# Legplates of Broken Trust (626)
+legs=,id=221092,enchant_id=7601,bonus_id=10390/6652/10377/10383/10256/1661/10255
+# Ballast Sinkers (626)
+feet=,id=159428,enchant_id=7424,bonus_id=10390/6652/10377/10383/10256/10034/10255
+# Circle of Bone (639)
+finger1=,id=133299,enchant_id=7346,gem_id=213482/213473,bonus_id=10390/6652/10383/10299/11342/10255/10395/10879
+# Umbriss Band (626)
+finger2=,id=133286,enchant_id=7346,gem_id=213458/213458,bonus_id=10390/6652/10383/10256/10056/10255/10394/10879
+# Ara-Kara Sacbrood (626)
+trinket1=,id=219314,bonus_id=10390/6652/10383/10256/1661/10255
+# Mark of Khardros (626)
+trinket2=,id=133300,bonus_id=10390/6652/10383/10256/10056/10255
+# Everforged Greataxe  (636)
+main_hand=,id=222443,enchant_id=7463,bonus_id=10421/9633/8902/9627/8793/10222/11144/11300/8960,crafted_stats=32/40,crafting_quality=5
+
+### Gear from Bags
+#
+# Soaring Behemoth's Greathelm (613)
+# head=,id=221146,bonus_id=10264/10390/6652/10876/10377/10383/1648/10255
+#
+# Wrathbark Greathelm (613)
+# head=,id=178694,bonus_id=10264/10390/6652/10876/10377/10383/9922/10255
+#
+# Entombed Seraph's Casque (626)
+# head=,id=211993,bonus_id=10877/10371/10256/1527/10255
+#
+# Darkfrost Helmet (613)
+# head=,id=178777,bonus_id=10264/10390/6652/10877/10377/10383/9922/10255
+#
+# Earthshape Pauldrons (613)
+# shoulder=,id=133294,bonus_id=10264/10390/6652/10377/10383/10043/10255
+#
+# Entombed Seraph's Plumes (626)
+# shoulder=,id=211991,bonus_id=10369/41/10256/1527/10255
+#
+# Flesh Connector's Epaulets (610)
+# shoulder=,id=221185,bonus_id=10265/10390/6652/10377/10383/1645/10255
+#
+# Anvilhide Cape (619)
+# back=,id=221088,bonus_id=10390/6652/10377/10383/10262/1654/10255
+#
+# Swarmcaller's Shroud (619)
+# back=,id=221154,bonus_id=10390/40/10377/10383/10262/1654/10255
+#
+# Dark Priest's Carapace (610)
+# chest=,id=221139,bonus_id=10265/10390/6652/10377/10383/1645/10255
+#
+# Harpooner's Plate Cuirass (613)
+# chest=,id=231827,bonus_id=10264/10390/6652/10377/10383/1648/10255
+#
+# Experimental Goresilk Chestguard (610)
+# chest=,id=221161,bonus_id=10265/10390/6652/10377/10383/1645/10255
+#
+# Dark Priest's Carapace (610)
+# chest=,id=221139,bonus_id=10265/10390/6652/10377/10383/1645/10255
+#
+# Experimental Goresilk Chestguard (613)
+# chest=,id=221161,bonus_id=10264/10390/6652/10377/10383/1648/10255
+#
+# Ravaged Lamplighter's Manacles (619)
+# wrist=,id=212437,bonus_id=6652/10877/10379/10355/10262/1520/10255
+#
+# Rope-Scored Gauntlets (619)
+# hands=,id=159429,bonus_id=10390/6652/10377/10383/10262/10027/10255
+#
+# Fogweaver Gauntlets (613)
+# hands=,id=178706,bonus_id=10264/10390/6652/10377/10383/9922/10255
+#
+# Rope-Scored Gauntlets (610)
+# hands=,id=159429,bonus_id=10265/10390/6652/10377/10383/10018/10255
+#
+# Devourer's Gauntlets (613)
+# hands=,id=221151,bonus_id=10264/10390/6652/10377/10383/1648/10255
+#
+# Belt of the Forgemaster (626)
+# waist=,id=133289,bonus_id=10390/6652/10876/10377/10383/10256/10056/10255
+#
+# Cannoneer's Toolbelt (613)
+# waist=,id=159434,bonus_id=10264/10390/41/10877/10377/10383/10021/10255
+#
+# Cannoneer's Toolbelt (610)
+# waist=,id=159434,bonus_id=10265/10390/6652/10876/10377/10383/10018/10255
+#
+# Crystal-Fissure Girdle (610)
+# waist=,id=221079,bonus_id=10265/10390/6652/10877/10377/10383/1645/10255
+#
+# Girdle of Somber Ploys (610)
+# waist=,id=221133,bonus_id=10265/10390/6652/10877/10377/10383/1645/10255
+#
+# Fused Bone Greatbelt (613)
+# waist=,id=178734,bonus_id=10264/10390/6652/10877/10377/10383/9922/10255
+#
+# Belt of the Forgemaster (613)
+# waist=,id=133289,bonus_id=10264/10390/6652/10877/10377/10383/10043/10255
+#
+# Bloodbound Horror's Legplates (610)
+# legs=,id=212422,bonus_id=6652/10379/10355/10265/1511/10255
+#
+# Gormshell Greaves (619)
+# legs=,id=178701,bonus_id=10390/40/10377/10383/10262/9928/10255
+#
+# Legplates of the Irontide Raider (610)
+# legs=,id=159427,bonus_id=10265/10390/6652/10377/10383/10018/10255
+#
+# Legplates of the Irontide Raider (613)
+# legs=,id=159427,bonus_id=10264/10390/6652/10377/10383/10021/10255
+#
+# Legplates of Broken Trust (613)
+# legs=,id=221092,bonus_id=10264/10390/6652/10377/10383/1648/10255
+#
+# Legplates of Broken Trust (610)
+# legs=,id=221092,bonus_id=10265/10390/40/10377/10383/1645/10255
+#
+# Ichor-Stained Sollerets (613)
+# feet=,id=221178,bonus_id=10264/10390/6652/10377/10383/1648/10255
+#
+# Ring of Dun Algaz (613)
+# finger1=,id=133287,bonus_id=10264/10390/6652/10395/10878/10383/10043/10255
+#
+# High Nerubian Signet (610)
+# finger1=,id=221141,enchant_id=7347,bonus_id=10265/10390/6652/10395/10393/10383/1645/10255
+#
+# Ritual Commander's Ring (613)
+# finger1=,id=178781,bonus_id=10264/10390/6652/10394/10393/10383/9922/10255
+#
+# Circle of Bone (619)
+# finger1=,id=133299,bonus_id=10390/6652/10395/10393/10383/10262/10049/10255
+#
+# Stitchflesh's Misplaced Signet (613)
+# finger1=,id=178736,bonus_id=10264/10390/41/10395/10392/10383/9922/10255
+#
+# Devout Zealot's Ring (626)
+# finger1=,id=221136,enchant_id=7334,gem_id=213479/213479,bonus_id=10390/6652/10383/10256/1661/10255/10394/10879
+#
+# Skyterror's Corrosive Organ (613)
+# trinket1=,id=212453,bonus_id=6652/10355/10264/1514/10255
+#
+# Ceaseless Swarmgland (613)
+# trinket1=,id=219316,bonus_id=10264/10390/6652/10383/1648/10255
+#
+# Overclocked Gear-a-Rang Launcher (610)
+# trinket1=,id=219301,bonus_id=10265/10390/6652/10383/1645/10255
+#
+# Swarmlord's Authority (626)
+# trinket1=,id=212450,bonus_id=6652/10355/10256/1527/10255
+#
+# Void Pactstone (613)
+# trinket1=,id=219311,bonus_id=10264/10390/6652/10383/1648/10255
+#
+# Oppressive Orator's Larynx (613)
+# trinket1=,id=219318,bonus_id=10264/10390/6652/10383/1648/10255
+#
+# Void Pactstone (613)
+# trinket1=,id=219311,bonus_id=10264/10390/6652/10383/1648/10255
+#
+# Unbound Changeling (613)
+# trinket1=,id=178708,bonus_id=10264/10390/6652/10383/6917/9922/10255
+#
+# Shipwrecker's Bludgeon (626)
+# main_hand=,id=221145,enchant_id=7460,bonus_id=10390/6652/10384/10256/1661/10255
+#
+# Dismembered Submersible Claw (610)
+# main_hand=,id=159650,bonus_id=10265/10390/6652/10384/10018/10255
+#
+# Everforged Longsword  (636)
+# main_hand=,id=222440,enchant_id=7463,bonus_id=10421/9633/8902/9627/8790/10222/11144/11300/8960,crafted_stats=49/36,crafting_quality=5
+#
+# Mace of Transformed Bone (610)
+# main_hand=,id=133301,bonus_id=10265/10390/6652/10384/10040/10255
+#
+# Acidslough Bulwark (610)
+# off_hand=,id=178712,bonus_id=10265/10390/6652/10383/9919/10255
+#
+# Dragonkin Ward (626)
+# off_hand=,id=157612,bonus_id=10390/6652/10383/10256/10056/10255
+#
+# Earthen Nullification Aegis (610)
+# off_hand=,id=221073,bonus_id=10265/10390/6652/10383/1645/10255
+#
+# Dragonkin Ward (610)
+# off_hand=,id=157612,bonus_id=10265/10390/6652/10383/10040/10255
+
+### Additional Character Info
+#
+# upgrade_currencies=c:2915:745/c:1792:745/c:2916:480/c:2914:317/c:3008:2000
+#
+# slot_high_watermarks=0:636:636/1:626:626/2:639:639/3:626:626/4:626:636/5:626:626/6:626:626/7:636:636/8:626:639/9:626:626/10:626:639/11:626:626/12:636:639/13:463:610/14:636:636/15:626:626/16:626:626
+#
+# upgrade_achievements=40107/40115/40118
+
+# Checksum: 325f06e6
