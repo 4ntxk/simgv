@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-evenly px-4 py-2 bg-zinc-950">
         <div className="flex items-center gap-2">
           <a
-            href="#"
+            href="/"
             className="flex items-center gap-2 text-xl font-bold text-whitetext"
           >
             <div className="w-8 h-8">

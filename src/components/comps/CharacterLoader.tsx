@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
@@ -9,8 +8,73 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { User, ArrowRightFromLine } from "lucide-react";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { useState } from "react";
+
+const FormSchema = z.object({
+  simcstring: z.string().min(100, {
+    message:
+      "No class/character found in input. Check for extraneous characters at the start of the text",
+  }),
+});
+
+const nicknameMapping = {
+  nicki: [
+    "Elenthar",
+    "Synthian",
+    "Goly",
+    "Emosnotdead",
+    "Nawrot",
+    "Kicorwan",
+    "Kekxoxo",
+    "Laedos",
+    "NatureWisp",
+    "Garadal",
+    "Gardarug",
+    "Smoczymonke",
+    "Khubi",
+    "Khuubii",
+    "Chleban",
+    "Gutal",
+    "Talax",
+  ],
+};
 
 export default function CharacterLoader() {
+  const [matchedNickname, setMatchedNickname] = useState<string | null>(null);
+  const navigate = useNavigate();
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema),
+  });
+
+  function checkForNickname(simcString: string) {
+    for (const nicknames of Object.values(nicknameMapping)) {
+      for (const nickname of nicknames) {
+        if (simcString.includes(nickname)) {
+          setMatchedNickname(nickname);
+          return;
+        }
+      }
+    }
+    setMatchedNickname(null);
+  }
+
+  function onSubmit(data: z.infer<typeof FormSchema>) {
+    navigate("/report", { state: { matchedNickname } });
+  }
   return (
     <div className="flex flex-col gap-8 p-6 bg-bgloader rounded-xl w-1/2">
       <div className="space-y-4">
@@ -19,7 +83,9 @@ export default function CharacterLoader() {
           <h2 className="text-lg font-semibold uppercase">Load from Armory</h2>
           <br />
         </div>
-          <h2 className="text-md font-semibold uppercase text-orangetext">Currently we encounter issues with armory APIs</h2>
+        <h2 className="text-md font-semibold uppercase text-orangetext">
+          Currently we encounter issues with armory APIs
+        </h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="space-y-2">
             <label className="text-sm text-graytext">Region</label>
@@ -41,8 +107,7 @@ export default function CharacterLoader() {
               <SelectTrigger className="bg-bggray border-zinc-700 text-gray-400 rounded">
                 <SelectValue placeholder="Select..." />
               </SelectTrigger>
-              <SelectContent className="bg-bggray border-zinc-700 text-whitetext rounded">
-              </SelectContent>
+              <SelectContent className="bg-bggray border-zinc-700 text-whitetext rounded"></SelectContent>
             </Select>
           </div>
           <div className="space-y-2">
@@ -70,27 +135,40 @@ export default function CharacterLoader() {
           </h2>
         </div>
         <div className="space-y-2">
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-whitetext">
-              Copy/paste the text from the SimulationCraft addon.
-            </span>
-            <a href="#" className="text-sm text-orangetext">
-              How to install and use the SimC addon
-            </a>
-          </div>
-          <Textarea
-            className="min-h-[200px] bg-bggray border-zinc-700"
-            placeholder=""
-          />
+          <Form {...form}>
+            <form
+              onSubmit={form.handleSubmit(onSubmit)}
+              className="w-2/3 space-y-6"
+            >
+              <FormField
+                control={form.control}
+                name="simcstring"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormControl>
+                      <Textarea
+                        {...field}
+                        onChange={(e) => {
+                          field.onChange(e);
+                          checkForNickname(e.target.value);
+                        }}
+                        className="min-h-[200px] bg-bggray border-zinc-700"
+                        placeholder="Paste SimulationCraft string here"
+                      />
+                    </FormControl>
+                    <FormMessage className="text-red-500" />
+                  </FormItem>
+                )}
+              />
+              <button className="text-[12px] font-bold leading-[20px] min-h-[40px] rounded p-[10px_20px] cursor-pointer uppercase tracking-custom text-blacktext opacity-[0.875] bg-[#00ff88]">
+                RUN SIMGV
+              </button>
+            </form>
+          </Form>
         </div>
       </div>
       <div className="text-sm text-zinc-400">
         Load your character from the Armory or SimC addon above
-      </div>
-      <div>
-        <button className="text-[12px] font-bold leading-[20px] min-h-[40px] rounded p-[10px_20px] cursor-pointer  uppercase tracking-custom text-blacktext opacity-[0.875] bg-[#00ff88]">
-          RUN SIMGV
-        </button>
       </div>
     </div>
   );

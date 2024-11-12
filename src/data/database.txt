@@ -1,0 +1,10 @@
+database = {
+    "Karol": ["Garadal", "Gardarug"],
+    "Antek": ["Luler", "Kukon", "Anaho", "Antk", "Dudunga", "Siedmiolatka", "Jogobolla"],
+    "Czarny": ["Smoczymonke", "Khubi", "Khuubii"],
+    "Ufo": ["Gutal", "Talax"],
+    "Sławek": ["Laedos", "NatureWisp"],
+    "Nawrocki": ["Emosnotdead", "Nawrot", "Kicorwan", "Kekxoxo"],
+    "Kolasa": ["Elenthar", "Synthian", "Goly"],
+    "Chleban": ["Chleban"],
+}
