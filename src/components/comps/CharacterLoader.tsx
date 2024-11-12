@@ -70,7 +70,7 @@ export default function CharacterLoader() {
     setMatchedNickname(null);
   }
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
+  function onSubmit() {
     navigate("/report", { state: { matchedNickname } });
   }
   return (
