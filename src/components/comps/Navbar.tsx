@@ -21,7 +21,7 @@ export default function Navbar() {
                 alt="Raidbots"
                 className="object-contain"
                 height="32"
-                src="../src/assets/raidbotslogo.png"
+                src="../public/raidbotslogo.png"
                 style={{
                   aspectRatio: "32/32",
                   objectFit: "contain",
