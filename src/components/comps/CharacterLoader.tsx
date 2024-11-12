@@ -12,14 +12,12 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
-  FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { useState } from "react";
@@ -126,7 +124,6 @@ export default function CharacterLoader() {
         <span className="text-cyan-400 text-sm font-medium">OR</span>
         <div className="flex-1 h-px bg-zinc-700"></div>
       </div>
-
       <div className="space-y-4">
         <div className="flex items-center gap-2 text-whitetext">
           <ArrowRightFromLine className="w-5 h-5 text-cyanfake" />
