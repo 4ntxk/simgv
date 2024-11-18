@@ -404,6 +404,462 @@ const rewardSets: {
       ],
     },
   },
+  Azureclass: {
+    specializations: {
+      Arcane: "Arcane",
+      Fire: "Fire",
+      Frost: "Frost",
+    },
+    items: {
+      Arcane: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Burrower's Cinch",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_belt_cloth_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221158,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Intertwiner's Shadowcowl",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_cloth_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260:8780",
+          spec: 267,
+          itemID: 221187,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Jeweled Gauntlets of Violet Rebirth",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_glove_cloth_raidmagenerubian_d_01.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212093,
+        },
+      ],
+      Fire: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Ring of Dun Algaz",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_kingsring2.png",
+          bonus: "4786:10053:10260:41",
+          spec: 267,
+          itemID: 133287,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Lakali's Spire of Knowledge",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_staff_2h_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178714,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Reanimator's Mantle",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_cloth_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178740,
+        },
+      ],
+      Frost: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Membranous Slippers",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_boot_cloth_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221154,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "High Speaker's Accretion",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_magic_swirl_color3.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 219303,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Runecoat of Violet Rebirth",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_chest_cloth_raidmagenerubian_d_01.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212095,
+        },
+      ],
+    },
+  },
+  Laedos: {
+    specializations: {
+      Destruction: "Destruction",
+      Demonology: "Demonology",
+      Affliction: "Affliction",
+    },
+    items: {
+      Destruction: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Hexflame Coven's All-Seeing Eye",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_cloth_raidwarlocknerubian_d_01_helm.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212074,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Cirral Concoctory",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_11_0_dungeon_tentaclevial_red.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 219321,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Experiment 08752's Band",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_ring_01_color5.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221189,
+        },
+      ],
+      Demonology: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "E.D.N.A. Stabilizers",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_pant_cloth_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221076,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Necropolis Lord's Shackles",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_bracer_cloth_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178782,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Grasping Crown of the Deep",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_cloth_kultirasdungeon_c_01.png",
+          bonus: "4786:1658:10260:8780",
+          spec: 267,
+          itemID: 231818,
+        },
+      ],
+      Affliction: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Trailspinner Pendant",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_neck_ardenweald_01_silver.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178707,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Satchel of Misbegotten Minions",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_coinbag07.png",
+          bonus: "4786:9932:10260:41",
+          spec: 267,
+          itemID: 178772,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Staff of Siphoned Essences",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_stave_2h_cataclysm_c_02.png",
+          bonus: "4786:10053:10260",
+          spec: 267,
+          itemID: 133303,
+        },
+      ],
+    },
+  },
+  Gardarug: {
+    specializations: {
+      Arms: "Arms",
+      Fury: "Fury",
+      Protection: "Protection",
+    },
+    items: {
+      Arms: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Rimebinder's Runeblade",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_1h_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178780,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Warsculptor's Cuisses",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_pant_plate_raidwarriornerubian_d_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 211983,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Crystal-Fissure Girdle",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_belt_plate_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260:8780",
+          spec: 267,
+          itemID: 221079,
+        },
+      ],
+      Fury: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Oppressive Orator's Larynx",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/spell_shadow_shadowmend.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 219318,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Band of the Ancient Dredger",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_ring_80_05b.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 159461,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Flesh Connector's Epaulets",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_plate_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221185,
+        },
+      ],
+      Protection: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Ceaseless Swarmgland",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_organmass_color2.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 219316,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Darkfrost Helmet",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_plate_oribosdungeon_c_01_helm.png",
+          bonus: "4786:9932:10260:40",
+          spec: 267,
+          itemID: 178777,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Wrathbark Greathelm",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_drustmask_d_01.png",
+          bonus: "4786:10053:10260",
+          spec: 267,
+          itemID: 178694,
+        },
+      ],
+    },
+  },
+  Chleban: {
+    specializations: {
+      Arms: "Arms",
+      Fury: "Fury",
+      Protection: "Protection",
+    },
+    items: {
+      Arms: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Experimental Goresilk Chestguard",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_chest_plate_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221161,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Mark of Khardros",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_hammer_04.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 133300,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Surgical Heartstopper",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_polearm_2h_earthendungeon_c_03.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221184,
+        },
+      ],
+      Fury: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Elder's Hemolymphal Periapt",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_necklace_01_color5.png",
+          bonus: "4786:1658:10260:8780",
+          spec: 267,
+          itemID: 221181,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Shipwrecker's Bludgeon",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_mace_1h_earthendungeon_c_01.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221145,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Earthshape Pauldrons",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_plate_dungeonplate_c_03.png",
+          bonus: "4786:1658:10260:40",
+          spec: 267,
+          itemID: 133294,
+        },
+      ],
+      Protection: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Warsculptor's Barbute",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_plate_raidwarriornerubian_d_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 211984,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Gormshell Greaves",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_plate_oribosdungeon_c_01_pants.png",
+          bonus: "4786:9932:10260:42",
+          spec: 267,
+          itemID: 178701,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Acidslough Bulwark",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shield_1h_oribosdungeon_c_01.png",
+          bonus: "4786:10053:10260",
+          spec: 267,
+          itemID: 178712,
+        },
+      ],
+    },
+  },
 };
 
 export default function ItemsGrid({ matchedNickname }: ItemsGridProps) {

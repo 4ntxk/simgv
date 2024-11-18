@@ -11,7 +11,9 @@ const UploadSimc = () => {
       <main className="flex-1 w-full bg-bgmain justify-center items-center">
         <div className="px-4 py-2 w-1/2 mx-auto text-center bg-bggray mt-5 rounded">
           <a href="#" className="text-sm font-bold text-orangetext">
-            This is alpha build.
+            This is alpha build, that works only on dungeon slots as different
+            mapping was used to raids and delves/world events slots. Read our
+            newest posts on Developer Blog to understand all the intricacies.
           </a>
           <span className="ml-1 text-sm text-blacktext font-bold">
             <span className="text-orangetext hover:text-whitetext pr-1">
@@ -31,8 +33,8 @@ const UploadSimc = () => {
             <AlertTriangle className="h-4 w-4 " />
             <AlertDescription className="text-sm ">
               Results are only as good as latest API Keys provider.
-              SimulationCraft can help you pick best item from Great Vault.
-              Leave a star on
+              SimulationCraft can help you identify only what were the ItemsID
+              markings assigned to your class specialization. Leave a star on
               <a href="#" className="underline text-whitetext ml-1">
                 github.
               </a>{" "}

@@ -35,6 +35,7 @@ const nicknameMapping = {
     "Synthian",
     "Goly",
     "Emosnotdead",
+    "Azureclass",
     "Nawrot",
     "Kicorwan",
     "Kekxoxo",

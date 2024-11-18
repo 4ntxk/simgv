@@ -23,12 +23,44 @@ const speckizjebow: { [key: string]: string[] } = {
   Talax: ["Demon Hunter", "Havoc"],
 };
 
+const predefinedTimes = [
+  "2 minutes, 30 seconds",
+  "2 minutes, 00 seconds",
+  "2 minutes, 15 seconds",
+  "2 minutes, 45 seconds",
+  "3 minutes, 15 seconds",
+  "3 minutes, 00 seconds",
+  "3 minutes, 45 seconds",
+  "3 minutes, 30 seconds",
+];
+
+const predefinedTexts = [
+  "Scroll of Flight is your Flight Master for this flight! Your Orb of Energy will be ready shortly...",
+  "Sending chunk to 1 peon...",
+  "Lasa the Galerider is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Thalindra the Dreamer is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Gorvarth, Slayer of the Damned is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Elyssara, Arcanist Supreme is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Brongar Earthshaker is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Melodir the Lightbringer is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Darkwing Shadowblade is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+  "Skorvax the Burning Soul is your Flight Master for this flight! Your Skyhorn Eagle will be ready shortly...",
+];
+
+const getRandomElement = <T,>(arr: T[]): T => {
+  return arr[Math.floor(Math.random() * arr.length)];
+};
+
 export default function StatusComponent({
   matchedNickname,
 }: StatusComponentProps) {
   const [characterClass, specialization] = speckizjebow[
     matchedNickname || ""
   ] || ["Unknown", "Unknown"];
+
+  const estimatedWaitTime = getRandomElement(predefinedTimes);
+
+  const randomText = getRandomElement(predefinedTexts);
 
   return (
     <Card className="bg-zinc-900 border-zinc-800 text-zinc-100">
@@ -46,10 +78,7 @@ export default function StatusComponent({
                 {matchedNickname} - {characterClass} - {specialization}
               </span>
             </div>
-            <p className="text-sm text-zinc-400">
-              Scroll of Flight is your Flight Master for this flight! Your Orb
-              of Energy will be ready shortly...
-            </p>
+            <p className="text-sm text-zinc-400">{randomText}</p>
             <div className="flex items-center gap-2 mt-2">
               <span className="text-sm text-whitetext font-bold">
                 Job Status:
@@ -66,9 +95,7 @@ export default function StatusComponent({
             <p className="text-sm text-emerald-400">
               Premium: Not yet available
             </p>
-            <p className="text-sm text-zinc-400">
-              Public: 2 minutes, 30 seconds
-            </p>
+            <p className="text-sm text-zinc-400">Public: {estimatedWaitTime}</p>
           </div>
         </div>
       </CardContent>
