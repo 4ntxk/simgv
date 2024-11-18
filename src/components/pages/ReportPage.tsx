@@ -17,7 +17,7 @@ function ReportPage() {
           </a>
           <span className="ml-1 text-sm text-blacktext font-bold">
             <span className="text-orangetext hover:text-whitetext pr-1">
-              <a href="">Sign up</a>
+              <a href="https://discord.com/invite/86EF64Q">Sign up</a>
             </span>
             for our closed beta in next month!
           </span>

@@ -70,9 +70,16 @@ export default function CharacterLoader() {
     setMatchedNickname(null);
   }
 
+  const [isLoading, setIsLoading] = useState(false);
+
   function onSubmit() {
-    navigate("/report", { state: { matchedNickname } });
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+      navigate("/report", { state: { matchedNickname } });
+    }, 3000);
   }
+
   return (
     <div className="flex flex-col gap-8 p-6 bg-bgloader rounded-xl w-1/2">
       <div className="space-y-4">
@@ -81,8 +88,9 @@ export default function CharacterLoader() {
           <h2 className="text-lg font-semibold uppercase">Load from Armory</h2>
           <br />
         </div>
-        <h2 className="text-md font-semibold uppercase text-orangetext">
-          Currently we encounter issues with armory APIs
+        <h2 className="text-md font-semibold text-orangetext">
+          Currently we encounter issues with armory APIs. It may not work as
+          intended. We highly recommend to use SimC strings.
         </h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="space-y-2">
@@ -157,8 +165,14 @@ export default function CharacterLoader() {
                   </FormItem>
                 )}
               />
-              <button className="text-[12px] font-bold leading-[20px] min-h-[40px] rounded p-[10px_20px] cursor-pointer uppercase tracking-custom text-blacktext opacity-[0.875] bg-[#00ff88]">
-                RUN SIMGV
+              <button
+                type="submit"
+                className={`text-[12px] font-bold leading-[20px] min-h-[40px] rounded p-[10px_20px] cursor-pointer uppercase tracking-custom text-blacktext opacity-[0.875] bg-[#00ff88] ${
+                  isLoading ? "opacity-50 cursor-not-allowed" : ""
+                }`}
+                disabled={isLoading}
+              >
+                {isLoading ? "Loading..." : "RUN SIMGV"}
               </button>
             </form>
           </Form>

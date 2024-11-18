@@ -1,16 +1,16 @@
-# Garadal - Destruction - 2024-11-11 18:48 - EU/Burning Legion
+# Garadal - Balance - 2024-11-11 18:48 - EU/Burning Legion
 # SimC Addon 11.0.5-01
 # WoW 11.0.5.57388, TOC 110005
 # Requires SimulationCraft 1000-01 or newer
 
 warlock="Garadal"
 level=80
-race=dracthyr
+race=Druid
 region=eu
 server=burning_legion
 role=spell
 professions=alchemy=1/herbalism=2
-spec=destruction
+spec=balance
 
 talents=CsQAA81jxQD71lYhS/t8p6HgAAmZmZmZ0Y2MMmNmZYWmFzMzMmFzGLLzMDAAAAMMzsMzMzYBzMjZWWGNzMsNaZ2ashBAAAAAAwMGGAA
 

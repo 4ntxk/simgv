@@ -11,15 +11,19 @@ interface QueueCountdownBadgeProps {
 export default function QueueCountdownBadge({
   matchedNickname,
 }: QueueCountdownBadgeProps) {
-  const [queuePosition, setQueuePosition] = useState(99);
-  const totalInQueue = 101;
+  const [totalInQueue] = useState(
+    () => Math.floor(Math.random() * (900 - 700 + 1)) + 700
+  );
+
+  const [queuePosition, setQueuePosition] = useState(totalInQueue);
+
   const navigate = useNavigate();
 
   useEffect(() => {
     const interval = setInterval(() => {
       setQueuePosition((prevPosition) => {
         if (prevPosition > 1) {
-          const decrease = Math.floor(Math.random() * 10) + 1;
+          const decrease = Math.floor(Math.random() * (30 - 10 + 1)) + 10;
           return Math.max(prevPosition - decrease, 1);
         } else if (prevPosition === 1) {
           navigate("/report/a7F9j2K0zPq5L1uR3T8wX", {
@@ -31,7 +35,7 @@ export default function QueueCountdownBadge({
     }, 2000);
 
     return () => clearInterval(interval);
-  }, [navigate]);
+  }, [navigate, matchedNickname]);
 
   return (
     <Badge

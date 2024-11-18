@@ -6,6 +6,16 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function Navbar() {
   return (
@@ -21,7 +31,7 @@ export default function Navbar() {
                 alt="Raidbots"
                 className="object-contain"
                 height="32"
-                src="../public/raidbotslogo.png"
+                src="/raidbots.png"
                 style={{
                   aspectRatio: "32/32",
                   objectFit: "contain",
@@ -33,10 +43,10 @@ export default function Navbar() {
           </a>
         </div>
         <div className="flex items-center gap-4">
-          <Button className="text-orangetext">LOGIN</Button>
+          <Button className="text-graytext">LOGIN</Button>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button className="gap-2 text-orangetext">
+              <Button className="gap-2 text-orangetext ">
                 ENGLISH
                 <ChevronDown className="w-4 h-4" />
               </Button>
@@ -45,23 +55,43 @@ export default function Navbar() {
               align="end"
               className="bg-zinc-900 border-zinc-800"
             >
-              <DropdownMenuItem className="text-orangetext">
+              <DropdownMenuItem className="text-orangetext cursor-pointer">
                 ENGLISH
               </DropdownMenuItem>
-              <DropdownMenuItem className="text-orangetext">
+              <DropdownMenuItem className="text-orangetext cursor-pointer">
                 DEUTSCH
               </DropdownMenuItem>
-              <DropdownMenuItem className="text-orangetext">
+              <DropdownMenuItem className="text-orangetext cursor-pointer">
                 ESPAÑOL
               </DropdownMenuItem>
-              <DropdownMenuItem className="text-orangetext">
+              <DropdownMenuItem className="text-orangetext cursor-pointer">
                 FRANÇAIS
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Button className="text-orangetext">
-            <img src="../src/assets/hamburger.png" alt="" />
-          </Button>
+
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button className="text-whitetext">
+                <img src="/hamburger.png" alt="button image" className="" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle className="text-whitetext">REPORTS</SheetTitle>
+                <SheetDescription className="text-whitetext fornt-bold">
+                  Reports currently unavailable. They will be after we merge
+                  this GV with main raidbots.
+                </SheetDescription>
+              </SheetHeader>
+
+              <SheetFooter>
+                <SheetClose asChild>
+                  <Button type="submit">Save changes</Button>
+                </SheetClose>
+              </SheetFooter>
+            </SheetContent>
+          </Sheet>
         </div>
       </nav>
     </div>
