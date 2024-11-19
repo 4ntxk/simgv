@@ -21,7 +21,7 @@ export function Footer() {
               Blog Archive
             </a>
             <a
-              href="https://www.raidbots.com/tou"
+              href="https://www.youtube.com/watch?v=OjNpRbNdR7E&ab_channel=MeheandusRevolution"
               className="text-footertext text-sm"
             >
               Terms of Use

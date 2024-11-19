@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Howl } from "howler";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,6 +19,16 @@ import {
 } from "@/components/ui/sheet";
 
 export default function Navbar() {
+  const playMusic = () => {
+    const sound = new Howl({
+      src: ["/deutschsong.mp3"],
+      autoplay: true,
+      loop: true, // If you want looping
+      mute: false, // Start muted, then unmute after interaction
+    });
+    sound.play();
+  };
+
   return (
     <div className="flex flex-col w-full">
       <nav className="flex items-center justify-evenly px-4 py-2 bg-zinc-950">
@@ -58,11 +69,14 @@ export default function Navbar() {
               <DropdownMenuItem className="text-orangetext cursor-pointer">
                 ENGLISH
               </DropdownMenuItem>
-              <DropdownMenuItem className="text-orangetext cursor-pointer">
+              <DropdownMenuItem
+                className="text-orangetext cursor-pointer"
+                onClick={playMusic}
+              >
                 DEUTSCH
               </DropdownMenuItem>
               <DropdownMenuItem className="text-orangetext cursor-pointer">
-                ESPAÑOL
+                <a href="/bambi">ESPAÑOL</a>
               </DropdownMenuItem>
               <DropdownMenuItem className="text-orangetext cursor-pointer">
                 FRANÇAIS

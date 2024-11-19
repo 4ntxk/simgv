@@ -4,6 +4,7 @@ import ReportPage from "./components/pages/ReportPage";
 import FakeReport from "./components/pages/FakeReport";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Bambi from "./components/pages/Bambi";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<UploadSimc />} />
+          <Route path="/bambi" element={<Bambi />} />
           <Route path="/report" element={<ReportPage />} />
           <Route
             path="/report/a7F9j2K0zPq5L1uR3T8wX"
