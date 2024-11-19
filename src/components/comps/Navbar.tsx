@@ -17,8 +17,11 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [showVideo, setShowVideo] = useState(false);
+
   const playMusic = () => {
     const sound = new Howl({
       src: ["/deutschsong.mp3"],
@@ -27,6 +30,10 @@ export default function Navbar() {
       mute: false, // Start muted, then unmute after interaction
     });
     sound.play();
+  };
+
+  const handleEspañolClick = () => {
+    setShowVideo(true); // Show the video when "ESPAÑOL" is clicked
   };
 
   return (
@@ -75,8 +82,11 @@ export default function Navbar() {
               >
                 DEUTSCH
               </DropdownMenuItem>
-              <DropdownMenuItem className="text-orangetext cursor-pointer">
-                <a href="/bambi">ESPAÑOL</a>
+              <DropdownMenuItem
+                className="text-orangetext cursor-pointer"
+                onClick={handleEspañolClick} // Handle "ESPAÑOL" click
+              >
+                ESPAÑOL
               </DropdownMenuItem>
               <DropdownMenuItem className="text-orangetext cursor-pointer">
                 FRANÇAIS
@@ -106,6 +116,26 @@ export default function Navbar() {
           </Sheet>
         </div>
       </nav>
+
+      {/* Conditional rendering of the video */}
+      {showVideo && (
+        <div
+          className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-70"
+          style={{ zIndex: 9999 }}
+        >
+          <video
+            src="/bambi.mp4" // Replace with your video file path
+            autoPlay
+            loop
+            muted={false}
+            style={{
+              width: "60%", // Adjust width as needed
+              height: "auto", // Maintain aspect ratio
+              objectFit: "contain",
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 }
