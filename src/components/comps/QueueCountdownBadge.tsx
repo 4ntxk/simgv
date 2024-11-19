@@ -15,6 +15,7 @@ export default function QueueCountdownBadge({
     () => Math.floor(Math.random() * (900 - 700 + 1)) + 700
   );
 
+
   const [queuePosition, setQueuePosition] = useState(totalInQueue);
 
   const navigate = useNavigate();

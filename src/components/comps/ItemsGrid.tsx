@@ -312,8 +312,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Noetic of the Forgotten Reservoir",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_helm_mail_raidshamannerubian_d_01.png",
           bonus: "1524:10260",
@@ -323,8 +323,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Krix'vizk's Speech Rod Grips",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_staff_2h_earthendungeon_c_01.png",
           bonus: "4786:1658:10260",
@@ -347,8 +347,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Overflowing Umbral Pail",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_offhand_1h_earthendungeon_c_01.png",
           bonus: "4786:1658:10260",
@@ -358,8 +358,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Stitchflesh's Misplaced Signet",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_argus_ring02.png",
           bonus: "4786:9932:10260:41",
@@ -382,8 +382,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Bainbridge's Blackjack",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_mace_1h_battledungeon_c_02.png",
           bonus: "10031:10260:10376",
@@ -393,8 +393,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Hook-Barbed Spaulders",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shoulders_mail_kultirasdungeon_c_01.png",
           bonus: "4786:1658:10260:41",
@@ -426,8 +426,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Intertwiner's Shadowcowl",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_helm_cloth_earthendungeon_c_01.png",
           bonus: "4786:1658:10260:8780",
@@ -437,8 +437,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Jeweled Gauntlets of Violet Rebirth",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_glove_cloth_raidmagenerubian_d_01.png",
           bonus: "4786:1524:10260",
@@ -461,8 +461,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Lakali's Spire of Knowledge",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_staff_2h_oribosdungeon_c_01.png",
           bonus: "4786:9932:10260",
@@ -472,8 +472,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Reanimator's Mantle",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shoulder_cloth_oribosdungeon_c_01.png",
           bonus: "4786:9932:10260",
@@ -496,8 +496,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "High Speaker's Accretion",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_magic_swirl_color3.png",
           bonus: "4786:1658:10260",
@@ -507,8 +507,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Runecoat of Violet Rebirth",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_chest_cloth_raidmagenerubian_d_01.png",
           bonus: "4786:1524:10260",
@@ -540,8 +540,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Cirral Concoctory",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_11_0_dungeon_tentaclevial_red.png",
           bonus: "4786:1658:10260",
@@ -551,8 +551,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Experiment 08752's Band",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_ring_01_color5.png",
           bonus: "4786:1658:10260",
@@ -575,8 +575,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Necropolis Lord's Shackles",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_bracer_cloth_oribosdungeon_c_01.png",
           bonus: "4786:9932:10260",
@@ -586,8 +586,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Grasping Crown of the Deep",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_helm_cloth_kultirasdungeon_c_01.png",
           bonus: "4786:1658:10260:8780",
@@ -610,8 +610,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Satchel of Misbegotten Minions",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_misc_coinbag07.png",
           bonus: "4786:9932:10260:41",
@@ -621,8 +621,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Staff of Siphoned Essences",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_stave_2h_cataclysm_c_02.png",
           bonus: "4786:10053:10260",
@@ -643,8 +643,8 @@ const rewardSets: {
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
           itemName: "Rimebinder's Runeblade",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_1h_oribosdungeon_c_01.png",
           bonus: "4786:9932:10260",
@@ -654,8 +654,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Warsculptor's Cuisses",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_pant_plate_raidwarriornerubian_d_01.png",
           bonus: "4786:1658:10260",
@@ -665,8 +665,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Crystal-Fissure Girdle",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_belt_plate_earthendungeon_c_01.png",
           bonus: "4786:1658:10260:8780",
@@ -678,8 +678,8 @@ const rewardSets: {
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
           itemName: "Oppressive Orator's Larynx",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/spell_shadow_shadowmend.png",
           bonus: "4786:1658:10260",
@@ -689,8 +689,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Band of the Ancient Dredger",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_ring_80_05b.png",
           bonus: "4786:9932:10260",
@@ -700,8 +700,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Flesh Connector's Epaulets",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shoulder_plate_earthendungeon_c_01.png",
           bonus: "4786:1658:10260",
@@ -713,8 +713,8 @@ const rewardSets: {
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
           itemName: "Ceaseless Swarmgland",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_misc_organmass_color2.png",
           bonus: "4786:9932:10260",
@@ -724,8 +724,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Darkfrost Helmet",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_plate_oribosdungeon_c_01_helm.png",
           bonus: "4786:9932:10260:40",
@@ -735,8 +735,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Wrathbark Greathelm",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_helm_drustmask_d_01.png",
           bonus: "4786:10053:10260",
@@ -768,8 +768,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Mark of Khardros",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_hammer_04.png",
           bonus: "4786:1658:10260",
@@ -779,8 +779,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Surgical Heartstopper",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_polearm_2h_earthendungeon_c_03.png",
           bonus: "4786:1658:10260",
@@ -803,8 +803,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Shipwrecker's Bludgeon",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_mace_1h_earthendungeon_c_01.png",
           bonus: "4786:1658:10260",
@@ -814,8 +814,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Earthshape Pauldrons",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shoulder_plate_dungeonplate_c_03.png",
           bonus: "4786:1658:10260:40",
@@ -838,8 +838,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Gormshell Greaves",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_plate_oribosdungeon_c_01_pants.png",
           bonus: "4786:9932:10260:42",
@@ -849,8 +849,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Acidslough Bulwark",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shield_1h_oribosdungeon_c_01.png",
           bonus: "4786:10053:10260",
@@ -871,8 +871,8 @@ const rewardSets: {
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
           itemName: "Gatecrasher's Enduring Effigy",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_shoulder_leather_raidmonknerubian_d_01.png",
           bonus: "4786:1524:10260",
@@ -882,8 +882,8 @@ const rewardSets: {
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
           itemName: "Sapgorger Belt",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_belt_leather_oribosdungeon_c_01.png",
           bonus: "4786:9932:10260",
@@ -893,8 +893,8 @@ const rewardSets: {
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
           itemName: "Viscous Coaglam",
-          itemLevel: 623,
-          completed: true,
+          itemLevel: 0,
+          completed: false,
           imageUrl:
             "https://www.raidbots.com/static/images/icons/36/inv_raid_creepingcoagulum_blue.png",
           bonus: "4786:1658:10260",
@@ -903,6 +903,120 @@ const rewardSets: {
         },
       ],
       Windwalker: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Besieger's Deckstalkers",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_boot_leather_kultirasdungeon_c_01.png",
+          bonus: "4786:10031:10260",
+          spec: 267,
+          itemID: 159320,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Azureborne Cloak",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_cape_naxxramas_01.png",
+          bonus: "4786:10053:10260",
+          spec: 267,
+          itemID: 133292,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "High Nerubian Signet",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_ring_02_color5.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221141,
+        },
+      ],
+      Brewmaster: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Ara-Kara Sacbrood",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_raid_mercurialegg_red.png",
+          bonus: "4786:1658:10260:41",
+          spec: 267,
+          itemID: 219314,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Gatecrasher's Horns",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_leather_raidmonknerubian_d_01.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212047,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Undying Chill Shoulderpads",
+          itemLevel: 0,
+          completed: false,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_leather_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178779,
+        },
+      ],
+    },
+  },
+  Khubi: {
+    specializations: {
+      Subtlety: "Subtlety",
+      Assassination: "Assassination",
+      Outlaw: "Outlaw",
+    },
+    items: {
+      Subtlety: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Overclocked Gear-a-Rang Launcher",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_firearm_2h_engineering_c_01_blue.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 219301,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Circle of Bone",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_jewelry_ring_66.png",
+          bonus: "4786:10053:10260:8780",
+          spec: 267,
+          itemID: 133299,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Sapgorger Belt",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_belt_leather_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178699,
+        },
+      ],
+      Assassination: [
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
           itemName: "Besieger's Deckstalkers",
@@ -937,39 +1051,39 @@ const rewardSets: {
           itemID: 221141,
         },
       ],
-      Brewmaster: [
+      Outlaw: [
         {
           requirement: "Complete 1 Heroic, Mythic or Timewalking",
-          itemName: "Ara-Kara Sacbrood",
+          itemName: "Zephyrous Sail Carver",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_raid_mercurialegg_red.png",
-          bonus: "4786:1658:10260:41",
+            "https://www.raidbots.com/static/images/icons/36/inv_sword_1h_earthendungeon_c_02.png",
+          bonus: "4786:1658:10260",
           spec: 267,
-          itemID: 219314,
+          itemID: 221144,
         },
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
-          itemName: "Gatecrasher's Horns",
+          itemName: "K'areshi Phantom's Nexus Wraps",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_helm_leather_raidmonknerubian_d_01.png",
+            "https://www.raidbots.com/static/images/icons/36/inv_chest_leather_raidroguenerubian_d_01.png",
           bonus: "4786:1524:10260",
           spec: 267,
-          itemID: 212047,
+          itemID: 212041,
         },
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
-          itemName: "Undying Chill Shoulderpads",
+          itemName: "Mistcaller Ocarina",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_leather_oribosdungeon_c_01.png",
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_primitive_toy03.png",
           bonus: "4786:9932:10260",
           spec: 267,
-          itemID: 178779,
+          itemID: 178715,
         },
       ],
     },
@@ -994,13 +1108,29 @@ export default function ItemsGrid({ matchedNickname }: ItemsGridProps) {
               {items[specializationKey]?.map((reward, index) => (
                 <Card
                   key={index}
-                  className="relative bg-zinc-900/90 border-2 border-amber-900/50 rounded-lg overflow-hidden"
+                  className={`relative ${
+                    reward.completed
+                      ? "bg-zinc-900/90"
+                      : "bg-zinc-900/50 opacity-50"
+                  } border-2 border-amber-900/50 rounded-lg overflow-hidden`}
                 >
                   <div className="absolute top-2 left-2 flex items-center gap-1.5">
-                    <div className="bg-green-500/20 rounded-full p-1">
-                      <Check className="w-4 h-4 text-green-500" />
-                    </div>
-                    <span className="text-green-500 text-xs">
+                    {reward.completed ? (
+                      <div className="bg-green-500/20 rounded-full p-1">
+                        <Check className="w-4 h-4 text-green-500" />
+                      </div>
+                    ) : (
+                      <div className="bg-red-500/20 rounded-full p-1">
+                        <span className="w-4 h-4 text-red-500 font-bold">
+                          ✗
+                        </span>
+                      </div>
+                    )}
+                    <span
+                      className={`text-xs ${
+                        reward.completed ? "text-green-500" : "text-red-500"
+                      }`}
+                    >
                       {reward.requirement}
                     </span>
                   </div>
@@ -1049,3 +1179,4 @@ export default function ItemsGrid({ matchedNickname }: ItemsGridProps) {
     </div>
   );
 }
+
