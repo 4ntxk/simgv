@@ -21,6 +21,7 @@ const speckizjebow: { [key: string]: string[] } = {
   Khubi: ["Rogue", "Assassination"],
   Chleban: ["Warrior", "Fury"],
   Talax: ["Demon Hunter", "Havoc"],
+  Garadiello: ["Monk", "Mistweaver"],
 };
 
 const predefinedTimes = [

@@ -860,6 +860,120 @@ const rewardSets: {
       ],
     },
   },
+  Garadiello: {
+    specializations: {
+      Mistweaver: "Mistweaver",
+      Windwalker: "Windwalker",
+      Brewmaster: "Brewmaster",
+    },
+    items: {
+      Mistweaver: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Gatecrasher's Enduring Effigy",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_leather_raidmonknerubian_d_01.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212045,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Sapgorger Belt",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_belt_leather_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178699,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Viscous Coaglam",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_raid_creepingcoagulum_blue.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 219320,
+        },
+      ],
+      Windwalker: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Besieger's Deckstalkers",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_boot_leather_kultirasdungeon_c_01.png",
+          bonus: "4786:10031:10260",
+          spec: 267,
+          itemID: 159320,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Azureborne Cloak",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_misc_cape_naxxramas_01.png",
+          bonus: "4786:10053:10260",
+          spec: 267,
+          itemID: 133292,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "High Nerubian Signet",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_ring_02_color5.png",
+          bonus: "4786:1658:10260",
+          spec: 267,
+          itemID: 221141,
+        },
+      ],
+      Brewmaster: [
+        {
+          requirement: "Complete 1 Heroic, Mythic or Timewalking",
+          itemName: "Ara-Kara Sacbrood",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_raid_mercurialegg_red.png",
+          bonus: "4786:1658:10260:41",
+          spec: 267,
+          itemID: 219314,
+        },
+        {
+          requirement: "Complete 4 Heroic, Mythic or Timewalking",
+          itemName: "Gatecrasher's Horns",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_helm_leather_raidmonknerubian_d_01.png",
+          bonus: "4786:1524:10260",
+          spec: 267,
+          itemID: 212047,
+        },
+        {
+          requirement: "Complete 8 Heroic, Mythic or Timewalking",
+          itemName: "Undying Chill Shoulderpads",
+          itemLevel: 623,
+          completed: true,
+          imageUrl:
+            "https://www.raidbots.com/static/images/icons/36/inv_shoulder_leather_oribosdungeon_c_01.png",
+          bonus: "4786:9932:10260",
+          spec: 267,
+          itemID: 178779,
+        },
+      ],
+    },
+  },
 };
 
 export default function ItemsGrid({ matchedNickname }: ItemsGridProps) {

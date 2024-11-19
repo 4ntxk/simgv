@@ -33,6 +33,7 @@ const nicknameMapping = {
   nicki: [
     "Elenthar",
     "Synthian",
+    "Garadiello",
     "Goly",
     "Emosnotdead",
     "Azureclass",
@@ -54,7 +55,10 @@ const nicknameMapping = {
 
 export default function CharacterLoader() {
   const [matchedNickname, setMatchedNickname] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null); // New state for the error message
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -64,6 +68,7 @@ export default function CharacterLoader() {
       for (const nickname of nicknames) {
         if (simcString.includes(nickname)) {
           setMatchedNickname(nickname);
+          setError(null); // Clear error if a match is found
           return;
         }
       }
@@ -71,13 +76,15 @@ export default function CharacterLoader() {
     setMatchedNickname(null);
   }
 
-  const [isLoading, setIsLoading] = useState(false);
-
   function onSubmit() {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-      navigate("/report", { state: { matchedNickname } });
+      if (matchedNickname) {
+        navigate("/report", { state: { matchedNickname } });
+      } else {
+        setError("Couldn't find character"); // Set error message if no match
+      }
     }, 3000);
   }
 
@@ -96,15 +103,12 @@ export default function CharacterLoader() {
         <div className="grid gap-4 md:grid-cols-3">
           <div className="space-y-2">
             <label className="text-sm text-graytext">Region</label>
-            <Select defaultValue="US">
+            <Select defaultValue="EU">
               <SelectTrigger className="bg-bggray text-whitetext border-zinc-700 rounded ">
                 <SelectValue placeholder="Select region" />
               </SelectTrigger>
               <SelectContent className="bg-bggray text-whitetext border-zinc-700">
-                <SelectItem value="US">US</SelectItem>
                 <SelectItem value="EU">EU</SelectItem>
-                <SelectItem value="KR">KR</SelectItem>
-                <SelectItem value="TW">TW</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -177,6 +181,8 @@ export default function CharacterLoader() {
               </button>
             </form>
           </Form>
+          {/* Display error message if present */}
+          {error && <p className="text-red-500 text-sm">{error}</p>}
         </div>
       </div>
       <div className="text-sm text-zinc-400">

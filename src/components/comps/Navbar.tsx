@@ -86,9 +86,7 @@ export default function Navbar() {
               </SheetHeader>
 
               <SheetFooter>
-                <SheetClose asChild>
-                  <Button type="submit">Save changes</Button>
-                </SheetClose>
+                <SheetClose asChild></SheetClose>
               </SheetFooter>
             </SheetContent>
           </Sheet>
