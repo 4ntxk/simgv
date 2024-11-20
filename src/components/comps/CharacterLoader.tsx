@@ -23,7 +23,7 @@ import {
 import { useState } from "react";
 
 const FormSchema = z.object({
-  simcstring: z.string().min(100, {
+  simcstring: z.string().min(50, {
     message:
       "No class/character found in input. Check for extraneous characters at the start of the text",
   }),
