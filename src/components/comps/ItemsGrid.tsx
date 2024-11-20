@@ -995,14 +995,14 @@ const rewardSets: {
         },
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
-          itemName: "Circle of Bone",
+          itemName: "Oppressive Orator's Larynx",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_jewelry_ring_66.png",
-          bonus: "4786:10053:10260:8780",
+            "https://www.raidbots.com/static/images/icons/36/spell_shadow_shadowmend.png",
+          bonus: "1658:10260:10376",
           spec: 267,
-          itemID: 133299,
+          itemID: 219318,
         },
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
@@ -1030,25 +1030,25 @@ const rewardSets: {
         },
         {
           requirement: "Complete 4 Heroic, Mythic or Timewalking",
-          itemName: "Azureborne Cloak",
+          itemName: "Circle of Bone",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_misc_cape_naxxramas_01.png",
-          bonus: "4786:10053:10260",
+            "https://www.raidbots.com/static/images/icons/36/inv_jewelry_ring_66.png",
+          bonus: "4786:10053:10260:8780",
           spec: 267,
-          itemID: 133292,
+          itemID: 133299,
         },
         {
           requirement: "Complete 8 Heroic, Mythic or Timewalking",
-          itemName: "High Nerubian Signet",
+          itemName: "Cephalohide Jacket",
           itemLevel: 623,
           completed: true,
           imageUrl:
-            "https://www.raidbots.com/static/images/icons/36/inv_11_0_nerubian_ring_02_color5.png",
-          bonus: "4786:1658:10260",
+            "https://www.raidbots.com/static/images/icons/36/inv_chest_leather_kultirasdungeon_c_01.png",
+          bonus: "1658:10260:10376",
           spec: 267,
-          itemID: 221141,
+          itemID: 231822,
         },
       ],
       Outlaw: [
@@ -1179,4 +1179,3 @@ export default function ItemsGrid({ matchedNickname }: ItemsGridProps) {
     </div>
   );
 }
-

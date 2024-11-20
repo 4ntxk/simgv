@@ -117,20 +117,19 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Conditional rendering of the video */}
       {showVideo && (
         <div
           className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-70"
           style={{ zIndex: 9999 }}
         >
           <video
-            src="/bambi.mp4" // Replace with your video file path
+            src="/bambi.mp4"
             autoPlay
             loop
             muted={false}
             style={{
-              width: "60%", // Adjust width as needed
-              height: "auto", // Maintain aspect ratio
+              width: "60%",
+              height: "auto",
               objectFit: "contain",
             }}
           />
